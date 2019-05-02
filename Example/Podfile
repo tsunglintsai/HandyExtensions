@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HandyExtensions_Tests' do
+  pod 'HandyExtensions', :path => '../'
+  
+  
+end
