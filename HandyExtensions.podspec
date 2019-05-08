@@ -22,21 +22,11 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/tsunglintsai/HandyExtensions.git'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tsunglin.tsai@gmail.com' => 'tsunglin.tsai@gmail.com' }
   s.source           = { :git => 'https://github.com/tsunglintsai/HandyExtensions.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HandyExtensions/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'HandyExtensions' => ['HandyExtensions/Assets/*.png']
-  # }
+  s.source_files = 'HandyExtensions/HandyExtensions/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
